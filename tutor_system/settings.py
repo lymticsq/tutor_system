@@ -31,17 +31,13 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-<<<<<<< HEAD
     'simpleui',     # 后台管理系统美化
-=======
->>>>>>> 185c6c8cbbace3f7027d1024b57f22910294a942
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-<<<<<<< HEAD
     "myapp.apps.MyappConfig",  #安装创建的应用
     'rest_framework',   # Django REST框架
     'rest_framework.authtoken',     # token验证
@@ -60,10 +56,7 @@ REST_FRAMEWORK = {
     ],
 }
 
-=======
-]
 
->>>>>>> 185c6c8cbbace3f7027d1024b57f22910294a942
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
@@ -76,10 +69,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = "tutor_system.urls"
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 185c6c8cbbace3f7027d1024b57f22910294a942
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
@@ -103,7 +93,7 @@ WSGI_APPLICATION = "tutor_system.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-<<<<<<< HEAD
+
 # DATABASES = {
 #     "default": {
 #         "ENGINE": "django.db.backends.sqlite3",
@@ -119,21 +109,11 @@ DATABASES = {
         'PORT': 3306,             # 端口 为空则使用默认端口
         'USER': 'root',         # 连接数据库的用户名
         'PASSWORD': '123456'      # 连接数据库的密码
-=======
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
->>>>>>> 185c6c8cbbace3f7027d1024b57f22910294a942
     }
 }
 
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 185c6c8cbbace3f7027d1024b57f22910294a942
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
@@ -156,13 +136,10 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-<<<<<<< HEAD
 #LANGUAGE_CODE = "en-us"
 #网页显示中文
 LANGUAGE_CODE = 'zh-hans'
-=======
-LANGUAGE_CODE = "en-us"
->>>>>>> 185c6c8cbbace3f7027d1024b57f22910294a942
+
 
 TIME_ZONE = "UTC"
 
